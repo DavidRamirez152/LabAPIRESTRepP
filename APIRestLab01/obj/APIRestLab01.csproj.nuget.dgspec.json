@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\APIRestLab01\\APIRestLab01.csproj": {}
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\APIRestLab01\\APIRestLab01.csproj": {}
   },
   "projects": {
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\APIRestLab01\\APIRestLab01.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\APIRestLab01\\APIRestLab01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\APIRestLab01\\APIRestLab01.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\APIRestLab01\\APIRestLab01.csproj",
         "projectName": "APIRestLab01",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\APIRestLab01\\APIRestLab01.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\APIRestLab01\\APIRestLab01.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\APIRestLab01\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\APIRestLab01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,20 +34,20 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
               },
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\LoggerService\\LoggerService.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\LoggerService\\LoggerService.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\LoggerService\\LoggerService.csproj"
               },
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj"
               },
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj"
               },
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\Service.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\Service.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\Service.csproj"
               }
             }
           }
@@ -104,14 +104,14 @@
         }
       }
     },
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
         "projectName": "CompanyEmployees.Presentation",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\CompanyEmployees.Presentation\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -133,8 +133,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -174,14 +174,14 @@
         }
       }
     },
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -203,8 +203,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj"
               }
             }
           }
@@ -238,14 +238,14 @@
         }
       }
     },
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -298,14 +298,14 @@
         }
       }
     },
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\LoggerService\\LoggerService.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\LoggerService\\LoggerService.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\LoggerService\\LoggerService.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\LoggerService\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -327,8 +327,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -368,14 +368,14 @@
         }
       }
     },
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -397,11 +397,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj"
               },
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj"
               }
             }
           }
@@ -447,14 +447,14 @@
         }
       }
     },
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj",
         "projectName": "Service.Contracts",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -476,11 +476,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj"
               },
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj"
               }
             }
           }
@@ -514,14 +514,14 @@
         }
       }
     },
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\Service.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -543,11 +543,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj"
               },
-              "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -587,14 +587,14 @@
         }
       }
     },
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

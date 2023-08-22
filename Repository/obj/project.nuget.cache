@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VdBoSdljRrW7PRBIBUpBxHD2xF34wT4l6gpMK9YM3h4Ec6pK347lcjz2NYNtlt4ks5KOG4azsq8K+4UkC8drPQ==",
+  "dgSpecHash": "a3Qungdh63nRodUJX0CEMk0uFAImnOY3yVn8ol+wkrH83yfcYOf5TQ1D4SD4/hqLTDWUNcWGTtNV4dodlUbafw==",
   "success": true,
-  "projectFilePath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aprendiz\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Aprendiz\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",

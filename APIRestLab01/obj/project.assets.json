@@ -4834,11 +4834,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\APIRestLab01\\APIRestLab01.csproj",
+      "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\APIRestLab01\\APIRestLab01.csproj",
       "projectName": "APIRestLab01",
-      "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\APIRestLab01\\APIRestLab01.csproj",
+      "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\APIRestLab01\\APIRestLab01.csproj",
       "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-      "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\APIRestLab01\\obj\\",
+      "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\APIRestLab01\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4861,20 +4861,20 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
-              "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
+            "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+              "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj"
             },
-            "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\LoggerService\\LoggerService.csproj"
+            "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\LoggerService\\LoggerService.csproj"
             },
-            "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj": {
-              "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj"
+            "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj"
             },
-            "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj": {
-              "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service.Contracts\\Service.Contracts.csproj"
+            "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj"
             },
-            "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\Service.csproj": {
-              "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\Service.csproj"
+            "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\Service.csproj"
             }
           }
         }

@@ -6,6 +6,7 @@ using Service.Contracts;
 using Shared.DataTransferObject;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -31,7 +32,7 @@ namespace Service
             {
                 var Employees = _repository.Employee.GetAllEmployees(trackChanges);
                 //var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(Employees);
-                var employeesDto = Employees.Select(c => new EmployeeDto(c.Id, c.Name ?? "", c.Age.ToString())); //Atencion
+                var employeesDto = Employees.Select(e => new EmployeeDto(e.Id, e.Name ?? "", e.Age.ToString(), e.Position)); //Atencion
                 return employeesDto;
             }
             catch (Exception ex)
@@ -51,6 +52,20 @@ namespace Service
 
             var employeeDto = _mapper.Map<EmployeeDto>(employee);
             return employeeDto;
+        }
+
+        public IEnumerable<EmployeeDto> GetEmployees(Guid companyId, bool trackChanges)
+        {
+            var company = _repository.Company.GetCompany(companyId, trackChanges);
+
+            if (company is null)
+            {
+                throw new CompanyNotFoundException(companyId);
+            }
+            var employeesFromDb = _repository.Employee.GetEmployees(companyId, trackChanges);
+
+            var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
+            return employeesDto;
         }
     }
 }

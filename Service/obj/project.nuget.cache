@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vp3wXIME0j1j1iARAq6PL1prgZwyqihYwFt6v6wPuvaoHJ0jEuX7U/SXx5I/cl0yC1zQ7NdQFAYYc1FPFIUOWw==",
+  "dgSpecHash": "KCmk+Gcoydg/8cxEBJYFRs59L4S73fOKJbJe1C6BONYTMnOwMciiQogGmIFuyWp1m6fdJeBnWon8LEJY/AUApg==",
   "success": true,
-  "projectFilePath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aprendiz\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Aprendiz\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

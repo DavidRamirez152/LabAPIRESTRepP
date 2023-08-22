@@ -953,11 +953,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\Repository.csproj",
+      "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-      "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Repository\\obj\\",
+      "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -979,11 +979,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Contracts\\Contracts.csproj"
+            "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj"
             },
-            "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj"
+            "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj"
             }
           }
         }

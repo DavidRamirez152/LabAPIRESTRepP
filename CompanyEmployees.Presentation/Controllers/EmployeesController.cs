@@ -8,37 +8,34 @@ using Service.Contracts;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
-    [Route("api/[controller]")]
+    //[Route("api/[controller]")]
+    [Route("api/companies/{companyId}/employees")]
     [ApiController]        
     public class EmployeesController : ControllerBase
     {
         private readonly IServiceManager _service;
 
-        public EmployeesController(IServiceManager service)=>        
-            _service = service;
+        public EmployeesController(IServiceManager service) => _service = service;
 
-        [HttpGet]
-        public IActionResult GetEmployees()
-        {
-            var employees = _service.EmployeeService.GetAllEmployees(trackChanges:false);
-                return Ok(employees);
-            //try
-            //{
-            //    var employees =
-            //        _service.EmployeeService.GetAllEmployees(trackChanges:false);
-            //    return Ok(employees);
-            //}
-            //catch
-            //{
-            //    return StatusCode(500, "Internal server Error");
-            //}
-        }
+        //[HttpGet]
+        //public IActionResult GetEmployees()
+        //{
+        //    var employees = _service.EmployeeService.GetAllEmployees(trackChanges:false);
+        //        return Ok(employees);
+        //}
 
         [HttpGet("{id:guid}")]
         public IActionResult GetEmployee(Guid id)
         {
             var employee = _service.EmployeeService.GetEmployee(id, trackChanges: false);
             return Ok(employee);
+        }
+
+        [HttpGet]
+        public IActionResult GetEmployeesForCompany(Guid companyId)
+        {
+            var employees = _service.EmployeeService.GetEmployees(companyId, trackChanges: false);
+            return Ok(employees);
         }
     }
 }

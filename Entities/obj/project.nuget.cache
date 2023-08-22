@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EGShg87T2vZyAGtO5A+Tf2ylDagLCg3duNcpy3vLhRcReuxJMO/evsyene5Gx+bkmOOVXGH5rPuX+/8wZkNFVQ==",
+  "dgSpecHash": "5Kqz9YhT22/QL503hFevVi6al8ArHUZQGbhryFh1anGvcm+0pyXLv1vsoivUG1jWpcjStcSxUFNDZRtk54bdfg==",
   "success": true,
-  "projectFilePath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

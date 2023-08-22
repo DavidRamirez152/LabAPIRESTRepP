@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj": {}
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj": {
+    "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\Shared.csproj",
+        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "D:\\LabAPIREST\\RepProfLabAPIREST\\Lab001APIREST\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
