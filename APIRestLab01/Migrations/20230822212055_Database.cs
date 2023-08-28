@@ -5,7 +5,7 @@
 namespace APIRestLab01.Migrations
 {
     /// <inheritdoc />
-    public partial class Database1 : Migration
+    public partial class Database : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

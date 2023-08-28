@@ -12,8 +12,8 @@ using Repository;
 namespace APIRestLab01.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20230813222803_DataBase")]
-    partial class DataBase
+    [Migration("20230822222422_DbAPIREST")]
+    partial class DbAPIREST
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

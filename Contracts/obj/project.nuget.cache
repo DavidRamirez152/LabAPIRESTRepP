@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7CvJjt+QbL14gKnPlQYCN1LAL98DZsc69Nz6in4nQ41q+A3jGHNCeyJMpo6LZbgQcGrAQvMZsKOIX2TpX5Vhig==",
+  "dgSpecHash": "lh2WNWollYmbQ+rYWAFJOAuB8pPdk5tmJFiVKJBGkqTqEyhsF1tJyKcFeGjQ3XyxBVfxLvoDmFpcPsnsWYxDGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aprendiz\\Desktop\\LabAPIREST\\LabAPIRESTRepP\\Contracts\\Contracts.csproj",
+  "projectFilePath": "C:\\ClasesAPIs\\LabAPIRESTRepP\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

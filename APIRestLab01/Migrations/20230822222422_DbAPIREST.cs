@@ -5,7 +5,7 @@
 namespace APIRestLab01.Migrations
 {
     /// <inheritdoc />
-    public partial class DbCreation : Migration
+    public partial class DbAPIREST : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

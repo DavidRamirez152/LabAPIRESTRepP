@@ -19,8 +19,10 @@ builder.Services.AddAutoMapper(typeof(Program));
 //builder.Services.AddDbContext<RepositoryContext>(options =>
 //options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
 
-builder.Services.AddControllers()
-    .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
+builder.Services.AddControllers(config => {
+    config.RespectBrowserAcceptHeader = true;
+}).AddXmlDataContractSerializerFormatters()
+.AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
 // Add services to the container.
 

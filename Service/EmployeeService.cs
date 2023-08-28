@@ -32,7 +32,7 @@ namespace Service
             {
                 var Employees = _repository.Employee.GetAllEmployees(trackChanges);
                 //var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(Employees);
-                var employeesDto = Employees.Select(e => new EmployeeDto(e.Id, e.Name ?? "", e.Age.ToString(), e.Position)); //Atencion
+                var employeesDto = Employees.Select(e => new EmployeeDto(e.Id, e.Name ?? "", e.Age.ToString(), e.Position ?? "")); //Atencion
                 return employeesDto;
             }
             catch (Exception ex)
@@ -52,6 +52,22 @@ namespace Service
 
             var employeeDto = _mapper.Map<EmployeeDto>(employee);
             return employeeDto;
+        }
+
+        public EmployeeDto GetEmployee(Guid companyId, Guid Id, bool trackChanges)
+        {
+            var company = _repository.Company.GetCompany(companyId, trackChanges);
+            if(company is null)
+            {
+                throw new CompanyNotFoundException(companyId);
+            }
+            var employeDb = _repository.Employee.GetEmployee(companyId, Id, trackChanges);
+            if(employeDb is null)
+            {
+                throw new EmployeeNotFoundException(Id);
+            }
+            var employee = _mapper.Map<EmployeeDto>(employeDb);
+            return employee;
         }
 
         public IEnumerable<EmployeeDto> GetEmployees(Guid companyId, bool trackChanges)

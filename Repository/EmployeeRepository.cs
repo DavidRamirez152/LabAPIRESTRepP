@@ -3,6 +3,7 @@ using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,9 +24,13 @@ namespace Repository
             FindByCondition(e => e.Id.Equals(employeeId), trackChanges)
             .SingleOrDefault();
 
+
         public IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges) =>
             FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
             .OrderBy(e => e.Name)
             .ToList();
+        public Employee GetEmployee(Guid companyId, Guid Id, bool trackChanges) =>
+            FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id == (Id), trackChanges)
+            .SingleOrDefault();
     }
 }
