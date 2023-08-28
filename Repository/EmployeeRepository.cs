@@ -25,11 +25,11 @@ namespace Repository
             .SingleOrDefault();
 
 
-        public IEnumerable<Employee> GetEmployees(Guid companyId, bool trackChanges) =>
+        public IEnumerable<Employee> GetEmployeesCompany(Guid companyId, bool trackChanges) =>
             FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
             .OrderBy(e => e.Name)
             .ToList();
-        public Employee GetEmployee(Guid companyId, Guid Id, bool trackChanges) =>
+        public Employee GetEmployeeCompany(Guid companyId, Guid Id, bool trackChanges) =>
             FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id == (Id), trackChanges)
             .SingleOrDefault();
     }

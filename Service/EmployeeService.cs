@@ -31,8 +31,9 @@ namespace Service
             try
             {
                 var Employees = _repository.Employee.GetAllEmployees(trackChanges);
-                //var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(Employees);
-                var employeesDto = Employees.Select(e => new EmployeeDto(e.Id, e.Name ?? "", e.Age.ToString(), e.Position ?? "")); //Atencion
+
+                var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(Employees);
+                //var employeesDto = Employees.Select(e => new EmployeeDto(e.Id, e.Name ?? "", e.Age.ToString(), e.Position ?? "")); //Atencion
                 return employeesDto;
             }
             catch (Exception ex)
@@ -54,23 +55,7 @@ namespace Service
             return employeeDto;
         }
 
-        public EmployeeDto GetEmployee(Guid companyId, Guid Id, bool trackChanges)
-        {
-            var company = _repository.Company.GetCompany(companyId, trackChanges);
-            if(company is null)
-            {
-                throw new CompanyNotFoundException(companyId);
-            }
-            var employeDb = _repository.Employee.GetEmployee(companyId, Id, trackChanges);
-            if(employeDb is null)
-            {
-                throw new EmployeeNotFoundException(Id);
-            }
-            var employee = _mapper.Map<EmployeeDto>(employeDb);
-            return employee;
-        }
-
-        public IEnumerable<EmployeeDto> GetEmployees(Guid companyId, bool trackChanges)
+        public IEnumerable<EmployeeDto> GetEmployeesCompany(Guid companyId, bool trackChanges)
         {
             var company = _repository.Company.GetCompany(companyId, trackChanges);
 
@@ -78,10 +63,26 @@ namespace Service
             {
                 throw new CompanyNotFoundException(companyId);
             }
-            var employeesFromDb = _repository.Employee.GetEmployees(companyId, trackChanges);
-
+            var employeesFromDb = _repository.Employee.GetEmployeesCompany(companyId, trackChanges);
             var employeesDto = _mapper.Map<IEnumerable<EmployeeDto>>(employeesFromDb);
+
             return employeesDto;
+        }
+
+        public EmployeeDto GetEmployeeCompany(Guid companyId, Guid Id, bool trackChanges)
+        {
+            var company = _repository.Company.GetCompany(companyId, trackChanges);
+            if(company is null)
+            {
+                throw new CompanyNotFoundException(companyId);
+            }
+            var employeDb = _repository.Employee.GetEmployeeCompany(companyId, Id, trackChanges);
+            if(employeDb is null)
+            {
+                throw new EmployeeNotFoundException(Id);
+            }
+            var employee = _mapper.Map<EmployeeDto>(employeDb);
+            return employee;
         }
     }
 }

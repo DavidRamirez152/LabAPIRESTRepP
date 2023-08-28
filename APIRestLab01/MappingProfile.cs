@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Entities.Models;
 using Shared.DataTransferObject;
+using Shared.DataTransferObjects;
 
 namespace APIRestLab01
 {
@@ -13,6 +14,8 @@ namespace APIRestLab01
                 opt => opt.MapFrom(x=>string.Join(' ', x.Address,x.Country)));
 
             CreateMap<Employee, EmployeeDto>();
+
+            CreateMap<CompanyForCreationDto, Company>();
         }
     }
 }
