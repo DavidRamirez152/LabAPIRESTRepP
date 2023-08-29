@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using Entities.Models;
 using Shared.DataTransferObject;
-using Shared.DataTransferObjects;
 
 namespace APIRestLab01
 {

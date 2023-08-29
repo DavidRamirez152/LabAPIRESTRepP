@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.DataTransferObjects
+namespace Shared.DataTransferObject
 {
-    public record CompanyForCreationDto (string name, string Address, string country);
+    public record EmployeeForCreationDto(string Name, int Age, string Position);
 }
+
