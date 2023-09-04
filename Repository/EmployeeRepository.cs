@@ -29,13 +29,13 @@ namespace Repository
             FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
             .OrderBy(e => e.Name)
             .ToList();
-        public Employee GetEmployeeCompany(Guid companyId, Guid Id, bool trackChanges) =>
+        public Employee GetEmployee(Guid companyId, Guid Id, bool trackChanges) =>
             FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id == (Id), trackChanges)
             .SingleOrDefault();
 
         public void CreateEmployeeForCompany(Guid companyId, Employee employee)
         {
-            employee.Id = companyId;
+            employee.CompanyId = companyId;
             Create(employee);
         }
 
