@@ -10,6 +10,7 @@ using Shared.DataTransferObject;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
+    //[Route("api/[controller]")]
     [Route("api/companies/{companyId}/employees")]
     [ApiController]
     public class EmployeesController : ControllerBase
@@ -25,7 +26,7 @@ namespace CompanyEmployees.Presentation.Controllers
             return Ok(employees);
         }
 
-        [HttpGet("/api/employees/{id:guid}", Name = "EmployeeById")]
+        [HttpGet("/api/employees/{id:guid}", Name = "GetEmployee")]
         public IActionResult GetEmployee(Guid id)
         {
             var employee = _service.EmployeeService.GetEmployee(id, trackChanges: false);
@@ -74,7 +75,7 @@ namespace CompanyEmployees.Presentation.Controllers
                 return BadRequest("EmployeeForUpdateDto object is null");
             }
 
-            _service.EmployeeService.UpdateEmployeeForCompany(companyId, id, employee, compTrackChanges: false, empTrackChanges: false);
+            _service.EmployeeService.UpdateEmployeeForCompany(companyId, id, employee, compTrackChanges: false, empTrackChanges: true);
             return NoContent();
         }
     }

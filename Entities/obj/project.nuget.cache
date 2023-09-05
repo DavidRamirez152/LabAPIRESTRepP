@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aINc9ADy95NVUWzIfRHY/ytqBGa0SOnPp/h5r66vzaEyYsB+kG5C2SZm14PEJ4bnMU6Y6mEgh0hYeBJAJpGfqA==",
+  "dgSpecHash": "neZSy/dR7EECAb82VE4JqqBg8EcWV0QMinRrjqNWE3Emcabb0T5oVzE0PlRgZyGB7+ZKbvGhAXuEB0xfN++MHg==",
   "success": true,
-  "projectFilePath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
