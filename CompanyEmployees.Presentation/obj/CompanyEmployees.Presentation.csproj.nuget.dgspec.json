@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {}
+    "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
+    "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "projectUniqueName": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
         "projectName": "CompanyEmployees.Presentation",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\obj\\",
+        "projectPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\CompanyEmployees.Presentation.csproj",
+        "packagesPath": "C:\\Users\\TheGamerXD\\.nuget\\packages\\",
+        "outputPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\CompanyEmployees.Presentation\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\TheGamerXD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,15 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj"
+              "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
+                "projectPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj"
               }
             }
           }
@@ -70,25 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
+    "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Entities\\obj\\",
+        "projectPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\TheGamerXD\\.nuget\\packages\\",
+        "outputPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\TheGamerXD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -96,7 +87,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -130,25 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
+    "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj",
+        "projectUniqueName": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj",
         "projectName": "Service.Contracts",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Service.Contracts\\obj\\",
+        "projectPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\Service.Contracts.csproj",
+        "packagesPath": "C:\\Users\\TheGamerXD\\.nuget\\packages\\",
+        "outputPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Service.Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\TheGamerXD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,18 +142,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Entities\\Entities.csproj"
+              "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Shared\\Shared.csproj"
+              "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj": {
+                "projectPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj"
               }
             }
           }
@@ -197,25 +182,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Shared\\Shared.csproj": {
+    "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Shared\\Shared.csproj",
+        "projectUniqueName": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\Aprendiz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Shared\\obj\\",
+        "projectPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\TheGamerXD\\.nuget\\packages\\",
+        "outputPath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Aprendiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\TheGamerXD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -223,7 +204,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -257,7 +237,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

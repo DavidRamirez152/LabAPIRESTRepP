@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C0wj9RU/Y3ETtPwNFa172L3SXei3TBfXnV+1Xg3tVkinfLcsV9DvQmx2MfrIlv8Kvd4iF1uZEwnbUWS7YYW4SQ==",
+  "dgSpecHash": "ZCwY6pvAV4joPuUxGprh5lwsdErRcq5aWs3xCBNEICGNEror2lM1c+HJQeYyWNyPESSa26YCmgzuVBZjAbBJCQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aprendiz\\Desktop\\APIPROYECTO\\LabAPIRESTRepP\\Shared\\Shared.csproj",
+  "projectFilePath": "C:\\Trabajos\\RepProfLabAPIREST\\LabAPIRESTRepP\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
