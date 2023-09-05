@@ -17,7 +17,7 @@ namespace APIRestLab01
             CreateMap<CompanyForCreationDto, Company>();
             CreateMap<EmployeeForCreationDto, Employee>();
 
-            CreateMap<EmployeeForUpdateDto, Employee>();
+            CreateMap<EmployeeForUpdateDto, Employee>().ReverseMap(); ;
             CreateMap<CompanyForUpdateDto, Company>();
         }
     }

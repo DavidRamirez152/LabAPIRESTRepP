@@ -862,3 +862,7 @@ C:\Trabajos\RepProfLabAPIREST\LabAPIRESTRepP\APIRestLab01\obj\Debug\net7.0\refin
 C:\Trabajos\RepProfLabAPIREST\LabAPIRESTRepP\APIRestLab01\obj\Debug\net7.0\APIRestLab01.pdb
 C:\Trabajos\RepProfLabAPIREST\LabAPIRESTRepP\APIRestLab01\obj\Debug\net7.0\APIRestLab01.genruntimeconfig.cache
 C:\Trabajos\RepProfLabAPIREST\LabAPIRESTRepP\APIRestLab01\obj\Debug\net7.0\ref\APIRestLab01.dll
+C:\Users\Aprendiz\Desktop\APIPROYECTO\LabAPIRESTRepP\APIRestLab01\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Aprendiz\Desktop\APIPROYECTO\LabAPIRESTRepP\APIRestLab01\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Aprendiz\Desktop\APIPROYECTO\LabAPIRESTRepP\APIRestLab01\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Aprendiz\Desktop\APIPROYECTO\LabAPIRESTRepP\APIRestLab01\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
