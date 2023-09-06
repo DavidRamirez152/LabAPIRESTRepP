@@ -10,7 +10,6 @@ using Microsoft.AspNetCore.JsonPatch;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
-    //[Route("api/[controller]")]
     [Route("api/companies/{companyId}/employees")]
     [ApiController]
     public class EmployeesController : ControllerBase
