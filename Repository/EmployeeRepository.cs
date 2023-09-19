@@ -1,5 +1,6 @@
 ﻿using Contracts;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,22 +17,22 @@ namespace Repository
         {
         }
 
-        public IEnumerable<Employee> GetAllEmployees(bool trackChanges) =>
-            FindAll(trackChanges)
+        public async Task<IEnumerable<Employee>> GetAllEmployeesAsync(bool trackChanges) =>
+            await FindAll(trackChanges)
             .OrderBy(e => e.Name)
-            .ToList();
-        public Employee GetEmployee(Guid employeeId, bool trackChanges) =>
-            FindByCondition(e => e.Id.Equals(employeeId), trackChanges)
-            .SingleOrDefault();
+            .ToListAsync();
+        public async Task<Employee> GetEmployeeAsync(Guid employeeId, bool trackChanges) =>
+            await FindByCondition(e => e.Id.Equals(employeeId), trackChanges)
+            .SingleOrDefaultAsync();
 
 
-        public IEnumerable<Employee> GetEmployeesCompany(Guid companyId, bool trackChanges) =>
-            FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
+        public async Task<IEnumerable<Employee>> GetEmployeesCompanyAsync(Guid companyId, bool trackChanges) =>
+            await FindByCondition(e => e.CompanyId.Equals(companyId), trackChanges)
             .OrderBy(e => e.Name)
-            .ToList();
-        public Employee GetEmployee(Guid companyId, Guid Id, bool trackChanges) =>
-            FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id == (Id), trackChanges)
-            .SingleOrDefault();
+            .ToListAsync();
+        public async Task<Employee> GetEmployeeAsync(Guid companyId, Guid Id, bool trackChanges) =>
+            await FindByCondition(e => e.CompanyId.Equals(companyId) && e.Id == (Id), trackChanges)
+            .SingleOrDefaultAsync();
 
         public void CreateEmployeeForCompany(Guid companyId, Employee employee)
         {
